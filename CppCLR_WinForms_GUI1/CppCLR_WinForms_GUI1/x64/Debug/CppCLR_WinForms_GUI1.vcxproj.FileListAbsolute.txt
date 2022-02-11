@@ -1,0 +1,4 @@
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.vcxproj.AssemblyReference.cache
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.vcxproj.SuggestedBindingRedirects.cache
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.Form1.resources
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.vcxproj.GenerateResource.cache

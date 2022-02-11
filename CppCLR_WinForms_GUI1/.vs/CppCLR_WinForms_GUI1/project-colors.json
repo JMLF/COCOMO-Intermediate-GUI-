@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8eba4601-693e-49b3-8b48-727bdc650f5c": {
+      "ProjectGuid": "8eba4601-693e-49b3-8b48-727bdc650f5c",
+      "DisplayName": "CppCLR_WinForms_GUI1",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
