@@ -7,7 +7,6 @@ D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(17,25): warning C4
 D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(20,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
 D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(21,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
 D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.cpp(36,8): warning C4101: 'E' : variable locale non référencée
-  C_COCOMO.cpp
-  Génération de code en cours...
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.cpp(37,40): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.cpp(59,10): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
   C_COCOMO.vcxproj -> D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\x64\Debug\C_COCOMO.exe

@@ -34,7 +34,8 @@ void C_CALCUL::setEAF(float EAF)
 float C_CALCUL::calcul_E()
 {
 	float E;
-
+	E = organic_A * (pow(KLOC,organic_B)) * EAF;
+	/*
 	switch (TypeProjetInt)
 	{
 	case 0:
@@ -48,15 +49,20 @@ float C_CALCUL::calcul_E()
 	//	E = organic_A * (KLOC ^ organic_B) * EAF;
 		break;
 	}
-	return 0;
+	*/
+	return E;
 }
 
 float C_CALCUL::calcul_D(float E)
 {
-	return 0;
+	float D;
+	D = 2.5 * (pow(E, orgnic_C));
+	return D;
 }
 
 float C_CALCUL::calcul_P(float E, float D)
 {
-	return 0;
+	float P;
+	P = E / D;
+	return P;
 }
