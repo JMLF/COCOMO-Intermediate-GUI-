@@ -1,8 +1,5 @@
 #pragma once
 
-#include "Header1.h"
-#include "Header2.h"
-
 namespace CppCLRWinFormsProject {
 
 	using namespace System;
@@ -38,6 +35,10 @@ namespace CppCLRWinFormsProject {
 			}
 		}
 	private: System::Windows::Forms::Label^ Titre_COCOMO;
+	private: System::Windows::Forms::GroupBox^ groupBoxEAF;
+	private: System::Windows::Forms::GroupBox^ groupBoxResultat;
+	private: System::Windows::Forms::Button^ btnCalcul;
+	private: System::Windows::Forms::GroupBox^ groupBoxVaraible;
 	protected:
 
 
@@ -60,6 +61,10 @@ namespace CppCLRWinFormsProject {
 		void InitializeComponent(void)
 		{
 			this->Titre_COCOMO = (gcnew System::Windows::Forms::Label());
+			this->groupBoxEAF = (gcnew System::Windows::Forms::GroupBox());
+			this->groupBoxResultat = (gcnew System::Windows::Forms::GroupBox());
+			this->btnCalcul = (gcnew System::Windows::Forms::Button());
+			this->groupBoxVaraible = (gcnew System::Windows::Forms::GroupBox());
 			this->SuspendLayout();
 			// 
 			// Titre_COCOMO
@@ -73,11 +78,51 @@ namespace CppCLRWinFormsProject {
 			this->Titre_COCOMO->TabIndex = 0;
 			this->Titre_COCOMO->Text = L"The COnstructive COst MOdel";
 			// 
+			// groupBoxEAF
+			// 
+			this->groupBoxEAF->Location = System::Drawing::Point(21, 93);
+			this->groupBoxEAF->Name = L"groupBoxEAF";
+			this->groupBoxEAF->Size = System::Drawing::Size(622, 828);
+			this->groupBoxEAF->TabIndex = 1;
+			this->groupBoxEAF->TabStop = false;
+			this->groupBoxEAF->Text = L"Effort Adjustement Factor";
+			// 
+			// groupBoxResultat
+			// 
+			this->groupBoxResultat->Location = System::Drawing::Point(680, 93);
+			this->groupBoxResultat->Name = L"groupBoxResultat";
+			this->groupBoxResultat->Size = System::Drawing::Size(356, 163);
+			this->groupBoxResultat->TabIndex = 2;
+			this->groupBoxResultat->TabStop = false;
+			this->groupBoxResultat->Text = L"Results";
+			// 
+			// btnCalcul
+			// 
+			this->btnCalcul->Location = System::Drawing::Point(777, 344);
+			this->btnCalcul->Name = L"btnCalcul";
+			this->btnCalcul->Size = System::Drawing::Size(183, 54);
+			this->btnCalcul->TabIndex = 3;
+			this->btnCalcul->Text = L"Calculate";
+			this->btnCalcul->UseVisualStyleBackColor = true;
+			// 
+			// groupBoxVaraible
+			// 
+			this->groupBoxVaraible->Location = System::Drawing::Point(680, 478);
+			this->groupBoxVaraible->Name = L"groupBoxVaraible";
+			this->groupBoxVaraible->Size = System::Drawing::Size(356, 163);
+			this->groupBoxVaraible->TabIndex = 4;
+			this->groupBoxVaraible->TabStop = false;
+			this->groupBoxVaraible->Text = L"Variables";
+			// 
 			// Form1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(9, 20);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(607, 761);
+			this->ClientSize = System::Drawing::Size(1066, 1008);
+			this->Controls->Add(this->groupBoxVaraible);
+			this->Controls->Add(this->btnCalcul);
+			this->Controls->Add(this->groupBoxResultat);
+			this->Controls->Add(this->groupBoxEAF);
 			this->Controls->Add(this->Titre_COCOMO);
 			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"Form1";
@@ -91,13 +136,3 @@ namespace CppCLRWinFormsProject {
 };
 }
 
-#include<iostream>
-
-int main_()
-{
-	int n;
-	std::cin >> n;
-	int result = plus_2(n);
-	std::cout << "plus_2(" << n << ") = " << result << std::endl;
-	return 0;
-}
