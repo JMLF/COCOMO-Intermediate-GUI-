@@ -1,5 +1,7 @@
 #pragma once
 #include <math.h>
+#include <iostream>
+#include <string>
 //classe de calcul pour le model COCOMO1
 
 class C_CALCUL

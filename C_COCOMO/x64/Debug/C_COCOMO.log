@@ -1,12 +1,11 @@
 ﻿  C_CALCUL.cpp
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(10,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(11,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(16,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(17,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(20,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(21,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(13,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(14,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(18,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(19,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
 D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
-D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.cpp(37,40): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(23,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(24,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
 D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.cpp(59,10): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
   C_COCOMO.vcxproj -> D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\x64\Debug\C_COCOMO.exe
