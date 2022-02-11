@@ -33,6 +33,21 @@ void C_CALCUL::setEAF(float EAF)
 
 float C_CALCUL::calcul_E()
 {
+	float E;
+
+	switch (TypeProjetInt)
+	{
+	case 0:
+	//	E = organic_A * (KLOC ^ organic_B) * EAF;
+		break;
+	case 1:
+		break;
+	case 2:
+		break;
+	default:
+	//	E = organic_A * (KLOC ^ organic_B) * EAF;
+		break;
+	}
 	return 0;
 }
 
