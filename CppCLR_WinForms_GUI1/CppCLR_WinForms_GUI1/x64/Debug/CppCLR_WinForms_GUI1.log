@@ -1,5 +1,29 @@
 ﻿  CppCLR_WinFormsProject.cpp
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(13,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(14,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(18,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(19,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(23,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(24,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1149,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1160,27): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1168,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1169,68): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
   Form1.cpp
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(13,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(14,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(18,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(19,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(23,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(24,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1149,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1160,27): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1168,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1169,68): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
   Génération de code en cours...
-  CppCLR_WinFormsProject.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+  C_CALCUL.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
   CppCLR_WinForms_GUI1.vcxproj -> D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.exe

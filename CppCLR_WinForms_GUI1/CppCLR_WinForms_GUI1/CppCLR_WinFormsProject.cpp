@@ -1,4 +1,5 @@
 #include "Form1.h"
+#include "../../C_COCOMO/C_CALCUL.h"
 
 using namespace System::Windows::Forms;
 
