@@ -126,6 +126,36 @@ namespace CppCLRWinFormsProject {
 	private: System::Windows::Forms::CheckBox^ checkBoxComplexiteProduitLow;
 	private: System::Windows::Forms::CheckBox^ checkBoxTailleBDDLow;
 	private: System::Windows::Forms::CheckBox^ checkBoxFiabiliteLogicielleLow;
+private: System::Windows::Forms::CheckBox^ checkBoxDelaiExeHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxVolatEnvironnementHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxContrainteMemoirHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxContraintePerfExeHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxComplexiteProduitHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxTailleBDDHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxFiabilitelogicielleHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCalendrierHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxUtilisationOutilLogicielHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxApplicationMethodGeniHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExpLangProgHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExpEnvironnementHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCapaciteIngeLogicielHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExperienceAppHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCapaciteAnalyseHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCalendrierVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxUtilisationOutilLogiVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxApplicationMethodeGeniVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExpLangProgVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExpEnvironnementVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCapaciteIngeLogicielVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxExpAppVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxCapaciteAnalyseVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxDelaiExeRequVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxVolatEnvirronementVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxContrainteMemoireVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxContraintePerfExeVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxComplexiteProduitVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxTailleBDDVeryHigh;
+private: System::Windows::Forms::CheckBox^ checkBoxFiabiliteLogiRequVeryHigh;
 	protected:
 
 
@@ -149,6 +179,42 @@ namespace CppCLRWinFormsProject {
 		{
 			this->Titre_COCOMO = (gcnew System::Windows::Forms::Label());
 			this->groupBoxEAF = (gcnew System::Windows::Forms::GroupBox());
+			this->checkBoxDelaiExeHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxVolatEnvironnementHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContrainteMemoirHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContraintePerfExeHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxComplexiteProduitHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxTailleBDDHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxFiabilitelogicielleHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCalendrierLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUtilisationOutilLogicielLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxApplicationGeniLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpLanguageProgLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpEnviironnementLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteIngeLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpAppLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteAnalyseLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxDelaiExeLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxVolatEnvLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContrainteMempirLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContraintePerfExeLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxComplexiteProduitLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxTailleBDDLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxFiabiliteLogicielleLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCalendrierVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUtilisationOutilVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxApplicationGenieVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpLangProgVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteIngeVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpEnvironnementVerylow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpApplicationVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteAnalyseVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxDelaiExeVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxVolatEnvVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContrainteMemoireVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContraintePerfExeVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxComplexiteProduitVeryLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxTailleBDDVeryLow = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxCalendirerNormal = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxUtilisationOutilLogicielleNormal = (gcnew System::Windows::Forms::CheckBox());
 			this->checkBoxApplicationGenieNormal = (gcnew System::Windows::Forms::CheckBox());
@@ -206,35 +272,29 @@ namespace CppCLRWinFormsProject {
 			this->labelKLOC = (gcnew System::Windows::Forms::Label());
 			this->textBoxError = (gcnew System::Windows::Forms::TextBox());
 			this->btnReset = (gcnew System::Windows::Forms::Button());
-			this->checkBoxTailleBDDVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxComplexiteProduitVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxContraintePerfExeVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxContrainteMemoireVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxVolatEnvVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxDelaiExeVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCapaciteAnalyseVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpApplicationVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpEnvironnementVerylow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCapaciteIngeVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpLangProgVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxApplicationGenieVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxUtilisationOutilVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCalendrierVeryLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxFiabiliteLogicielleLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxTailleBDDLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxComplexiteProduitLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxContraintePerfExeLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxContrainteMempirLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxVolatEnvLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxDelaiExeLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCapaciteAnalyseLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpAppLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCapaciteIngeLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpEnviironnementLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxExpLanguageProgLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxApplicationGeniLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxUtilisationOutilLogicielLow = (gcnew System::Windows::Forms::CheckBox());
-			this->checkBoxCalendrierLow = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteAnalyseHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExperienceAppHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteIngeLogicielHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpEnvironnementHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpLangProgHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxApplicationMethodGeniHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUtilisationOutilLogicielHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCalendrierHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxFiabiliteLogiRequVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxTailleBDDVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxComplexiteProduitVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContraintePerfExeVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxContrainteMemoireVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxVolatEnvirronementVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxDelaiExeRequVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteAnalyseVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpAppVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCapaciteIngeLogicielVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpEnvironnementVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxExpLangProgVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxApplicationMethodeGeniVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxUtilisationOutilLogiVeryHigh = (gcnew System::Windows::Forms::CheckBox());
+			this->checkBoxCalendrierVeryHigh = (gcnew System::Windows::Forms::CheckBox());
 			this->groupBoxEAF->SuspendLayout();
 			this->groupBoxResultat->SuspendLayout();
 			this->groupBoxVaraible->SuspendLayout();
@@ -253,6 +313,36 @@ namespace CppCLRWinFormsProject {
 			// 
 			// groupBoxEAF
 			// 
+			this->groupBoxEAF->Controls->Add(this->checkBoxCalendrierVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxUtilisationOutilLogiVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxApplicationMethodeGeniVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExpLangProgVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExpEnvironnementVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxCapaciteIngeLogicielVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExpAppVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxCapaciteAnalyseVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxDelaiExeRequVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxVolatEnvirronementVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxContrainteMemoireVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxContraintePerfExeVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxComplexiteProduitVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxTailleBDDVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxFiabiliteLogiRequVeryHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxCalendrierHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxUtilisationOutilLogicielHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxApplicationMethodGeniHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExpLangProgHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExpEnvironnementHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxCapaciteIngeLogicielHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxExperienceAppHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxCapaciteAnalyseHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxDelaiExeHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxVolatEnvironnementHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxContrainteMemoirHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxContraintePerfExeHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxComplexiteProduitHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxTailleBDDHigh);
+			this->groupBoxEAF->Controls->Add(this->checkBoxFiabilitelogicielleHigh);
 			this->groupBoxEAF->Controls->Add(this->checkBoxCalendrierLow);
 			this->groupBoxEAF->Controls->Add(this->checkBoxUtilisationOutilLogicielLow);
 			this->groupBoxEAF->Controls->Add(this->checkBoxApplicationGeniLow);
@@ -330,6 +420,330 @@ namespace CppCLRWinFormsProject {
 			this->groupBoxEAF->TabIndex = 1;
 			this->groupBoxEAF->TabStop = false;
 			this->groupBoxEAF->Text = L"Effort Adjustement Factor";
+			// 
+			// checkBoxDelaiExeHigh
+			// 
+			this->checkBoxDelaiExeHigh->AutoSize = true;
+			this->checkBoxDelaiExeHigh->Location = System::Drawing::Point(573, 375);
+			this->checkBoxDelaiExeHigh->Name = L"checkBoxDelaiExeHigh";
+			this->checkBoxDelaiExeHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxDelaiExeHigh->TabIndex = 77;
+			this->checkBoxDelaiExeHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxVolatEnvironnementHigh
+			// 
+			this->checkBoxVolatEnvironnementHigh->AutoSize = true;
+			this->checkBoxVolatEnvironnementHigh->Location = System::Drawing::Point(573, 342);
+			this->checkBoxVolatEnvironnementHigh->Name = L"checkBoxVolatEnvironnementHigh";
+			this->checkBoxVolatEnvironnementHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxVolatEnvironnementHigh->TabIndex = 76;
+			this->checkBoxVolatEnvironnementHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContrainteMemoirHigh
+			// 
+			this->checkBoxContrainteMemoirHigh->AutoSize = true;
+			this->checkBoxContrainteMemoirHigh->Location = System::Drawing::Point(573, 307);
+			this->checkBoxContrainteMemoirHigh->Name = L"checkBoxContrainteMemoirHigh";
+			this->checkBoxContrainteMemoirHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContrainteMemoirHigh->TabIndex = 75;
+			this->checkBoxContrainteMemoirHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContraintePerfExeHigh
+			// 
+			this->checkBoxContraintePerfExeHigh->AutoSize = true;
+			this->checkBoxContraintePerfExeHigh->Location = System::Drawing::Point(573, 276);
+			this->checkBoxContraintePerfExeHigh->Name = L"checkBoxContraintePerfExeHigh";
+			this->checkBoxContraintePerfExeHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContraintePerfExeHigh->TabIndex = 74;
+			this->checkBoxContraintePerfExeHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxComplexiteProduitHigh
+			// 
+			this->checkBoxComplexiteProduitHigh->AutoSize = true;
+			this->checkBoxComplexiteProduitHigh->Location = System::Drawing::Point(573, 185);
+			this->checkBoxComplexiteProduitHigh->Name = L"checkBoxComplexiteProduitHigh";
+			this->checkBoxComplexiteProduitHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxComplexiteProduitHigh->TabIndex = 73;
+			this->checkBoxComplexiteProduitHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxTailleBDDHigh
+			// 
+			this->checkBoxTailleBDDHigh->AutoSize = true;
+			this->checkBoxTailleBDDHigh->Location = System::Drawing::Point(573, 147);
+			this->checkBoxTailleBDDHigh->Name = L"checkBoxTailleBDDHigh";
+			this->checkBoxTailleBDDHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxTailleBDDHigh->TabIndex = 72;
+			this->checkBoxTailleBDDHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxFiabilitelogicielleHigh
+			// 
+			this->checkBoxFiabilitelogicielleHigh->AutoSize = true;
+			this->checkBoxFiabilitelogicielleHigh->Location = System::Drawing::Point(573, 107);
+			this->checkBoxFiabilitelogicielleHigh->Name = L"checkBoxFiabilitelogicielleHigh";
+			this->checkBoxFiabilitelogicielleHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxFiabilitelogicielleHigh->TabIndex = 71;
+			this->checkBoxFiabilitelogicielleHigh->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCalendrierLow
+			// 
+			this->checkBoxCalendrierLow->AutoSize = true;
+			this->checkBoxCalendrierLow->Location = System::Drawing::Point(446, 765);
+			this->checkBoxCalendrierLow->Name = L"checkBoxCalendrierLow";
+			this->checkBoxCalendrierLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCalendrierLow->TabIndex = 70;
+			this->checkBoxCalendrierLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxUtilisationOutilLogicielLow
+			// 
+			this->checkBoxUtilisationOutilLogicielLow->AutoSize = true;
+			this->checkBoxUtilisationOutilLogicielLow->Location = System::Drawing::Point(446, 734);
+			this->checkBoxUtilisationOutilLogicielLow->Name = L"checkBoxUtilisationOutilLogicielLow";
+			this->checkBoxUtilisationOutilLogicielLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxUtilisationOutilLogicielLow->TabIndex = 69;
+			this->checkBoxUtilisationOutilLogicielLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxApplicationGeniLow
+			// 
+			this->checkBoxApplicationGeniLow->AutoSize = true;
+			this->checkBoxApplicationGeniLow->Location = System::Drawing::Point(446, 702);
+			this->checkBoxApplicationGeniLow->Name = L"checkBoxApplicationGeniLow";
+			this->checkBoxApplicationGeniLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxApplicationGeniLow->TabIndex = 68;
+			this->checkBoxApplicationGeniLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpLanguageProgLow
+			// 
+			this->checkBoxExpLanguageProgLow->AutoSize = true;
+			this->checkBoxExpLanguageProgLow->Location = System::Drawing::Point(446, 600);
+			this->checkBoxExpLanguageProgLow->Name = L"checkBoxExpLanguageProgLow";
+			this->checkBoxExpLanguageProgLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpLanguageProgLow->TabIndex = 67;
+			this->checkBoxExpLanguageProgLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpEnviironnementLow
+			// 
+			this->checkBoxExpEnviironnementLow->AutoSize = true;
+			this->checkBoxExpEnviironnementLow->Location = System::Drawing::Point(446, 561);
+			this->checkBoxExpEnviironnementLow->Name = L"checkBoxExpEnviironnementLow";
+			this->checkBoxExpEnviironnementLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpEnviironnementLow->TabIndex = 66;
+			this->checkBoxExpEnviironnementLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCapaciteIngeLow
+			// 
+			this->checkBoxCapaciteIngeLow->AutoSize = true;
+			this->checkBoxCapaciteIngeLow->Location = System::Drawing::Point(446, 525);
+			this->checkBoxCapaciteIngeLow->Name = L"checkBoxCapaciteIngeLow";
+			this->checkBoxCapaciteIngeLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteIngeLow->TabIndex = 65;
+			this->checkBoxCapaciteIngeLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpAppLow
+			// 
+			this->checkBoxExpAppLow->AutoSize = true;
+			this->checkBoxExpAppLow->Location = System::Drawing::Point(446, 492);
+			this->checkBoxExpAppLow->Name = L"checkBoxExpAppLow";
+			this->checkBoxExpAppLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpAppLow->TabIndex = 64;
+			this->checkBoxExpAppLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCapaciteAnalyseLow
+			// 
+			this->checkBoxCapaciteAnalyseLow->AutoSize = true;
+			this->checkBoxCapaciteAnalyseLow->Location = System::Drawing::Point(446, 460);
+			this->checkBoxCapaciteAnalyseLow->Name = L"checkBoxCapaciteAnalyseLow";
+			this->checkBoxCapaciteAnalyseLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteAnalyseLow->TabIndex = 63;
+			this->checkBoxCapaciteAnalyseLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxDelaiExeLow
+			// 
+			this->checkBoxDelaiExeLow->AutoSize = true;
+			this->checkBoxDelaiExeLow->Location = System::Drawing::Point(446, 375);
+			this->checkBoxDelaiExeLow->Name = L"checkBoxDelaiExeLow";
+			this->checkBoxDelaiExeLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxDelaiExeLow->TabIndex = 62;
+			this->checkBoxDelaiExeLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxVolatEnvLow
+			// 
+			this->checkBoxVolatEnvLow->AutoSize = true;
+			this->checkBoxVolatEnvLow->Location = System::Drawing::Point(446, 342);
+			this->checkBoxVolatEnvLow->Name = L"checkBoxVolatEnvLow";
+			this->checkBoxVolatEnvLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxVolatEnvLow->TabIndex = 61;
+			this->checkBoxVolatEnvLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContrainteMempirLow
+			// 
+			this->checkBoxContrainteMempirLow->AutoSize = true;
+			this->checkBoxContrainteMempirLow->Location = System::Drawing::Point(446, 307);
+			this->checkBoxContrainteMempirLow->Name = L"checkBoxContrainteMempirLow";
+			this->checkBoxContrainteMempirLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContrainteMempirLow->TabIndex = 60;
+			this->checkBoxContrainteMempirLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContraintePerfExeLow
+			// 
+			this->checkBoxContraintePerfExeLow->AutoSize = true;
+			this->checkBoxContraintePerfExeLow->Location = System::Drawing::Point(446, 276);
+			this->checkBoxContraintePerfExeLow->Name = L"checkBoxContraintePerfExeLow";
+			this->checkBoxContraintePerfExeLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContraintePerfExeLow->TabIndex = 59;
+			this->checkBoxContraintePerfExeLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxComplexiteProduitLow
+			// 
+			this->checkBoxComplexiteProduitLow->AutoSize = true;
+			this->checkBoxComplexiteProduitLow->Location = System::Drawing::Point(446, 185);
+			this->checkBoxComplexiteProduitLow->Name = L"checkBoxComplexiteProduitLow";
+			this->checkBoxComplexiteProduitLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxComplexiteProduitLow->TabIndex = 58;
+			this->checkBoxComplexiteProduitLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxTailleBDDLow
+			// 
+			this->checkBoxTailleBDDLow->AutoSize = true;
+			this->checkBoxTailleBDDLow->Location = System::Drawing::Point(446, 147);
+			this->checkBoxTailleBDDLow->Name = L"checkBoxTailleBDDLow";
+			this->checkBoxTailleBDDLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxTailleBDDLow->TabIndex = 57;
+			this->checkBoxTailleBDDLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxFiabiliteLogicielleLow
+			// 
+			this->checkBoxFiabiliteLogicielleLow->AutoSize = true;
+			this->checkBoxFiabiliteLogicielleLow->Location = System::Drawing::Point(446, 107);
+			this->checkBoxFiabiliteLogicielleLow->Name = L"checkBoxFiabiliteLogicielleLow";
+			this->checkBoxFiabiliteLogicielleLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxFiabiliteLogicielleLow->TabIndex = 56;
+			this->checkBoxFiabiliteLogicielleLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCalendrierVeryLow
+			// 
+			this->checkBoxCalendrierVeryLow->AutoSize = true;
+			this->checkBoxCalendrierVeryLow->Location = System::Drawing::Point(370, 763);
+			this->checkBoxCalendrierVeryLow->Name = L"checkBoxCalendrierVeryLow";
+			this->checkBoxCalendrierVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCalendrierVeryLow->TabIndex = 55;
+			this->checkBoxCalendrierVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxUtilisationOutilVeryLow
+			// 
+			this->checkBoxUtilisationOutilVeryLow->AutoSize = true;
+			this->checkBoxUtilisationOutilVeryLow->Location = System::Drawing::Point(370, 732);
+			this->checkBoxUtilisationOutilVeryLow->Name = L"checkBoxUtilisationOutilVeryLow";
+			this->checkBoxUtilisationOutilVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxUtilisationOutilVeryLow->TabIndex = 54;
+			this->checkBoxUtilisationOutilVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxApplicationGenieVeryLow
+			// 
+			this->checkBoxApplicationGenieVeryLow->AutoSize = true;
+			this->checkBoxApplicationGenieVeryLow->Location = System::Drawing::Point(370, 700);
+			this->checkBoxApplicationGenieVeryLow->Name = L"checkBoxApplicationGenieVeryLow";
+			this->checkBoxApplicationGenieVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxApplicationGenieVeryLow->TabIndex = 53;
+			this->checkBoxApplicationGenieVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpLangProgVeryLow
+			// 
+			this->checkBoxExpLangProgVeryLow->AutoSize = true;
+			this->checkBoxExpLangProgVeryLow->Location = System::Drawing::Point(370, 600);
+			this->checkBoxExpLangProgVeryLow->Name = L"checkBoxExpLangProgVeryLow";
+			this->checkBoxExpLangProgVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpLangProgVeryLow->TabIndex = 52;
+			this->checkBoxExpLangProgVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCapaciteIngeVeryLow
+			// 
+			this->checkBoxCapaciteIngeVeryLow->AutoSize = true;
+			this->checkBoxCapaciteIngeVeryLow->Location = System::Drawing::Point(370, 525);
+			this->checkBoxCapaciteIngeVeryLow->Name = L"checkBoxCapaciteIngeVeryLow";
+			this->checkBoxCapaciteIngeVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteIngeVeryLow->TabIndex = 51;
+			this->checkBoxCapaciteIngeVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpEnvironnementVerylow
+			// 
+			this->checkBoxExpEnvironnementVerylow->AutoSize = true;
+			this->checkBoxExpEnvironnementVerylow->Location = System::Drawing::Point(370, 559);
+			this->checkBoxExpEnvironnementVerylow->Name = L"checkBoxExpEnvironnementVerylow";
+			this->checkBoxExpEnvironnementVerylow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpEnvironnementVerylow->TabIndex = 50;
+			this->checkBoxExpEnvironnementVerylow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxExpApplicationVeryLow
+			// 
+			this->checkBoxExpApplicationVeryLow->AutoSize = true;
+			this->checkBoxExpApplicationVeryLow->Location = System::Drawing::Point(370, 492);
+			this->checkBoxExpApplicationVeryLow->Name = L"checkBoxExpApplicationVeryLow";
+			this->checkBoxExpApplicationVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpApplicationVeryLow->TabIndex = 49;
+			this->checkBoxExpApplicationVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxCapaciteAnalyseVeryLow
+			// 
+			this->checkBoxCapaciteAnalyseVeryLow->AutoSize = true;
+			this->checkBoxCapaciteAnalyseVeryLow->Location = System::Drawing::Point(370, 460);
+			this->checkBoxCapaciteAnalyseVeryLow->Name = L"checkBoxCapaciteAnalyseVeryLow";
+			this->checkBoxCapaciteAnalyseVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteAnalyseVeryLow->TabIndex = 48;
+			this->checkBoxCapaciteAnalyseVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxDelaiExeVeryLow
+			// 
+			this->checkBoxDelaiExeVeryLow->AutoSize = true;
+			this->checkBoxDelaiExeVeryLow->Location = System::Drawing::Point(370, 375);
+			this->checkBoxDelaiExeVeryLow->Name = L"checkBoxDelaiExeVeryLow";
+			this->checkBoxDelaiExeVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxDelaiExeVeryLow->TabIndex = 47;
+			this->checkBoxDelaiExeVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxVolatEnvVeryLow
+			// 
+			this->checkBoxVolatEnvVeryLow->AutoSize = true;
+			this->checkBoxVolatEnvVeryLow->Location = System::Drawing::Point(370, 340);
+			this->checkBoxVolatEnvVeryLow->Name = L"checkBoxVolatEnvVeryLow";
+			this->checkBoxVolatEnvVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxVolatEnvVeryLow->TabIndex = 46;
+			this->checkBoxVolatEnvVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContrainteMemoireVeryLow
+			// 
+			this->checkBoxContrainteMemoireVeryLow->AutoSize = true;
+			this->checkBoxContrainteMemoireVeryLow->Location = System::Drawing::Point(370, 307);
+			this->checkBoxContrainteMemoireVeryLow->Name = L"checkBoxContrainteMemoireVeryLow";
+			this->checkBoxContrainteMemoireVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContrainteMemoireVeryLow->TabIndex = 45;
+			this->checkBoxContrainteMemoireVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxContraintePerfExeVeryLow
+			// 
+			this->checkBoxContraintePerfExeVeryLow->AutoSize = true;
+			this->checkBoxContraintePerfExeVeryLow->Location = System::Drawing::Point(370, 274);
+			this->checkBoxContraintePerfExeVeryLow->Name = L"checkBoxContraintePerfExeVeryLow";
+			this->checkBoxContraintePerfExeVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContraintePerfExeVeryLow->TabIndex = 44;
+			this->checkBoxContraintePerfExeVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxComplexiteProduitVeryLow
+			// 
+			this->checkBoxComplexiteProduitVeryLow->AutoSize = true;
+			this->checkBoxComplexiteProduitVeryLow->Location = System::Drawing::Point(370, 183);
+			this->checkBoxComplexiteProduitVeryLow->Name = L"checkBoxComplexiteProduitVeryLow";
+			this->checkBoxComplexiteProduitVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxComplexiteProduitVeryLow->TabIndex = 43;
+			this->checkBoxComplexiteProduitVeryLow->UseVisualStyleBackColor = true;
+			// 
+			// checkBoxTailleBDDVeryLow
+			// 
+			this->checkBoxTailleBDDVeryLow->AutoSize = true;
+			this->checkBoxTailleBDDVeryLow->Location = System::Drawing::Point(370, 147);
+			this->checkBoxTailleBDDVeryLow->Name = L"checkBoxTailleBDDVeryLow";
+			this->checkBoxTailleBDDVeryLow->Size = System::Drawing::Size(22, 21);
+			this->checkBoxTailleBDDVeryLow->TabIndex = 42;
+			this->checkBoxTailleBDDVeryLow->UseVisualStyleBackColor = true;
 			// 
 			// checkBoxCalendirerNormal
 			// 
@@ -812,11 +1226,11 @@ namespace CppCLRWinFormsProject {
 			// labelSalaire
 			// 
 			this->labelSalaire->AutoSize = true;
-			this->labelSalaire->Location = System::Drawing::Point(6, 98);
+			this->labelSalaire->Location = System::Drawing::Point(-1, 98);
 			this->labelSalaire->Name = L"labelSalaire";
-			this->labelSalaire->Size = System::Drawing::Size(51, 20);
+			this->labelSalaire->Size = System::Drawing::Size(58, 20);
 			this->labelSalaire->TabIndex = 7;
-			this->labelSalaire->Text = L"Wage";
+			this->labelSalaire->Text = L"Salaire";
 			// 
 			// labelKLOC
 			// 
@@ -844,266 +1258,212 @@ namespace CppCLRWinFormsProject {
 			this->btnReset->UseVisualStyleBackColor = true;
 			this->btnReset->Click += gcnew System::EventHandler(this, &Form1::btnResetClick);
 			// 
-			// checkBoxTailleBDDVeryLow
+			// checkBoxCapaciteAnalyseHigh
 			// 
-			this->checkBoxTailleBDDVeryLow->AutoSize = true;
-			this->checkBoxTailleBDDVeryLow->Location = System::Drawing::Point(370, 147);
-			this->checkBoxTailleBDDVeryLow->Name = L"checkBoxTailleBDDVeryLow";
-			this->checkBoxTailleBDDVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxTailleBDDVeryLow->TabIndex = 42;
-			this->checkBoxTailleBDDVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxCapaciteAnalyseHigh->AutoSize = true;
+			this->checkBoxCapaciteAnalyseHigh->Location = System::Drawing::Point(573, 460);
+			this->checkBoxCapaciteAnalyseHigh->Name = L"checkBoxCapaciteAnalyseHigh";
+			this->checkBoxCapaciteAnalyseHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteAnalyseHigh->TabIndex = 78;
+			this->checkBoxCapaciteAnalyseHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxComplexiteProduitVeryLow
+			// checkBoxExperienceAppHigh
 			// 
-			this->checkBoxComplexiteProduitVeryLow->AutoSize = true;
-			this->checkBoxComplexiteProduitVeryLow->Location = System::Drawing::Point(370, 183);
-			this->checkBoxComplexiteProduitVeryLow->Name = L"checkBoxComplexiteProduitVeryLow";
-			this->checkBoxComplexiteProduitVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxComplexiteProduitVeryLow->TabIndex = 43;
-			this->checkBoxComplexiteProduitVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxExperienceAppHigh->AutoSize = true;
+			this->checkBoxExperienceAppHigh->Location = System::Drawing::Point(573, 492);
+			this->checkBoxExperienceAppHigh->Name = L"checkBoxExperienceAppHigh";
+			this->checkBoxExperienceAppHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExperienceAppHigh->TabIndex = 79;
+			this->checkBoxExperienceAppHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxContraintePerfExeVeryLow
+			// checkBoxCapaciteIngeLogicielHigh
 			// 
-			this->checkBoxContraintePerfExeVeryLow->AutoSize = true;
-			this->checkBoxContraintePerfExeVeryLow->Location = System::Drawing::Point(370, 274);
-			this->checkBoxContraintePerfExeVeryLow->Name = L"checkBoxContraintePerfExeVeryLow";
-			this->checkBoxContraintePerfExeVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxContraintePerfExeVeryLow->TabIndex = 44;
-			this->checkBoxContraintePerfExeVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxCapaciteIngeLogicielHigh->AutoSize = true;
+			this->checkBoxCapaciteIngeLogicielHigh->Location = System::Drawing::Point(573, 525);
+			this->checkBoxCapaciteIngeLogicielHigh->Name = L"checkBoxCapaciteIngeLogicielHigh";
+			this->checkBoxCapaciteIngeLogicielHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteIngeLogicielHigh->TabIndex = 80;
+			this->checkBoxCapaciteIngeLogicielHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxContrainteMemoireVeryLow
+			// checkBoxExpEnvironnementHigh
 			// 
-			this->checkBoxContrainteMemoireVeryLow->AutoSize = true;
-			this->checkBoxContrainteMemoireVeryLow->Location = System::Drawing::Point(370, 307);
-			this->checkBoxContrainteMemoireVeryLow->Name = L"checkBoxContrainteMemoireVeryLow";
-			this->checkBoxContrainteMemoireVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxContrainteMemoireVeryLow->TabIndex = 45;
-			this->checkBoxContrainteMemoireVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxExpEnvironnementHigh->AutoSize = true;
+			this->checkBoxExpEnvironnementHigh->Location = System::Drawing::Point(573, 561);
+			this->checkBoxExpEnvironnementHigh->Name = L"checkBoxExpEnvironnementHigh";
+			this->checkBoxExpEnvironnementHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpEnvironnementHigh->TabIndex = 81;
+			this->checkBoxExpEnvironnementHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxVolatEnvVeryLow
+			// checkBoxExpLangProgHigh
 			// 
-			this->checkBoxVolatEnvVeryLow->AutoSize = true;
-			this->checkBoxVolatEnvVeryLow->Location = System::Drawing::Point(370, 340);
-			this->checkBoxVolatEnvVeryLow->Name = L"checkBoxVolatEnvVeryLow";
-			this->checkBoxVolatEnvVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxVolatEnvVeryLow->TabIndex = 46;
-			this->checkBoxVolatEnvVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxExpLangProgHigh->AutoSize = true;
+			this->checkBoxExpLangProgHigh->Location = System::Drawing::Point(573, 600);
+			this->checkBoxExpLangProgHigh->Name = L"checkBoxExpLangProgHigh";
+			this->checkBoxExpLangProgHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpLangProgHigh->TabIndex = 82;
+			this->checkBoxExpLangProgHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxDelaiExeVeryLow
+			// checkBoxApplicationMethodGeniHigh
 			// 
-			this->checkBoxDelaiExeVeryLow->AutoSize = true;
-			this->checkBoxDelaiExeVeryLow->Location = System::Drawing::Point(370, 375);
-			this->checkBoxDelaiExeVeryLow->Name = L"checkBoxDelaiExeVeryLow";
-			this->checkBoxDelaiExeVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxDelaiExeVeryLow->TabIndex = 47;
-			this->checkBoxDelaiExeVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxApplicationMethodGeniHigh->AutoSize = true;
+			this->checkBoxApplicationMethodGeniHigh->Location = System::Drawing::Point(573, 702);
+			this->checkBoxApplicationMethodGeniHigh->Name = L"checkBoxApplicationMethodGeniHigh";
+			this->checkBoxApplicationMethodGeniHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxApplicationMethodGeniHigh->TabIndex = 83;
+			this->checkBoxApplicationMethodGeniHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxCapaciteAnalyseVeryLow
+			// checkBoxUtilisationOutilLogicielHigh
 			// 
-			this->checkBoxCapaciteAnalyseVeryLow->AutoSize = true;
-			this->checkBoxCapaciteAnalyseVeryLow->Location = System::Drawing::Point(370, 460);
-			this->checkBoxCapaciteAnalyseVeryLow->Name = L"checkBoxCapaciteAnalyseVeryLow";
-			this->checkBoxCapaciteAnalyseVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCapaciteAnalyseVeryLow->TabIndex = 48;
-			this->checkBoxCapaciteAnalyseVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxUtilisationOutilLogicielHigh->AutoSize = true;
+			this->checkBoxUtilisationOutilLogicielHigh->Location = System::Drawing::Point(573, 734);
+			this->checkBoxUtilisationOutilLogicielHigh->Name = L"checkBoxUtilisationOutilLogicielHigh";
+			this->checkBoxUtilisationOutilLogicielHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxUtilisationOutilLogicielHigh->TabIndex = 84;
+			this->checkBoxUtilisationOutilLogicielHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxExpApplicationVeryLow
+			// checkBoxCalendrierHigh
 			// 
-			this->checkBoxExpApplicationVeryLow->AutoSize = true;
-			this->checkBoxExpApplicationVeryLow->Location = System::Drawing::Point(370, 492);
-			this->checkBoxExpApplicationVeryLow->Name = L"checkBoxExpApplicationVeryLow";
-			this->checkBoxExpApplicationVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpApplicationVeryLow->TabIndex = 49;
-			this->checkBoxExpApplicationVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxCalendrierHigh->AutoSize = true;
+			this->checkBoxCalendrierHigh->Location = System::Drawing::Point(573, 765);
+			this->checkBoxCalendrierHigh->Name = L"checkBoxCalendrierHigh";
+			this->checkBoxCalendrierHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCalendrierHigh->TabIndex = 85;
+			this->checkBoxCalendrierHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxExpEnvironnementVerylow
+			// checkBoxFiabiliteLogiRequVeryHigh
 			// 
-			this->checkBoxExpEnvironnementVerylow->AutoSize = true;
-			this->checkBoxExpEnvironnementVerylow->Location = System::Drawing::Point(370, 559);
-			this->checkBoxExpEnvironnementVerylow->Name = L"checkBoxExpEnvironnementVerylow";
-			this->checkBoxExpEnvironnementVerylow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpEnvironnementVerylow->TabIndex = 50;
-			this->checkBoxExpEnvironnementVerylow->UseVisualStyleBackColor = true;
+			this->checkBoxFiabiliteLogiRequVeryHigh->AutoSize = true;
+			this->checkBoxFiabiliteLogiRequVeryHigh->Location = System::Drawing::Point(621, 107);
+			this->checkBoxFiabiliteLogiRequVeryHigh->Name = L"checkBoxFiabiliteLogiRequVeryHigh";
+			this->checkBoxFiabiliteLogiRequVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxFiabiliteLogiRequVeryHigh->TabIndex = 86;
+			this->checkBoxFiabiliteLogiRequVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxCapaciteIngeVeryLow
+			// checkBoxTailleBDDVeryHigh
 			// 
-			this->checkBoxCapaciteIngeVeryLow->AutoSize = true;
-			this->checkBoxCapaciteIngeVeryLow->Location = System::Drawing::Point(370, 525);
-			this->checkBoxCapaciteIngeVeryLow->Name = L"checkBoxCapaciteIngeVeryLow";
-			this->checkBoxCapaciteIngeVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCapaciteIngeVeryLow->TabIndex = 51;
-			this->checkBoxCapaciteIngeVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxTailleBDDVeryHigh->AutoSize = true;
+			this->checkBoxTailleBDDVeryHigh->Location = System::Drawing::Point(621, 147);
+			this->checkBoxTailleBDDVeryHigh->Name = L"checkBoxTailleBDDVeryHigh";
+			this->checkBoxTailleBDDVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxTailleBDDVeryHigh->TabIndex = 87;
+			this->checkBoxTailleBDDVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxExpLangProgVeryLow
+			// checkBoxComplexiteProduitVeryHigh
 			// 
-			this->checkBoxExpLangProgVeryLow->AutoSize = true;
-			this->checkBoxExpLangProgVeryLow->Location = System::Drawing::Point(370, 600);
-			this->checkBoxExpLangProgVeryLow->Name = L"checkBoxExpLangProgVeryLow";
-			this->checkBoxExpLangProgVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpLangProgVeryLow->TabIndex = 52;
-			this->checkBoxExpLangProgVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxComplexiteProduitVeryHigh->AutoSize = true;
+			this->checkBoxComplexiteProduitVeryHigh->Location = System::Drawing::Point(621, 185);
+			this->checkBoxComplexiteProduitVeryHigh->Name = L"checkBoxComplexiteProduitVeryHigh";
+			this->checkBoxComplexiteProduitVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxComplexiteProduitVeryHigh->TabIndex = 88;
+			this->checkBoxComplexiteProduitVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxApplicationGenieVeryLow
+			// checkBoxContraintePerfExeVeryHigh
 			// 
-			this->checkBoxApplicationGenieVeryLow->AutoSize = true;
-			this->checkBoxApplicationGenieVeryLow->Location = System::Drawing::Point(370, 700);
-			this->checkBoxApplicationGenieVeryLow->Name = L"checkBoxApplicationGenieVeryLow";
-			this->checkBoxApplicationGenieVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxApplicationGenieVeryLow->TabIndex = 53;
-			this->checkBoxApplicationGenieVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxContraintePerfExeVeryHigh->AutoSize = true;
+			this->checkBoxContraintePerfExeVeryHigh->Location = System::Drawing::Point(621, 276);
+			this->checkBoxContraintePerfExeVeryHigh->Name = L"checkBoxContraintePerfExeVeryHigh";
+			this->checkBoxContraintePerfExeVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContraintePerfExeVeryHigh->TabIndex = 89;
+			this->checkBoxContraintePerfExeVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxUtilisationOutilVeryLow
+			// checkBoxContrainteMemoireVeryHigh
 			// 
-			this->checkBoxUtilisationOutilVeryLow->AutoSize = true;
-			this->checkBoxUtilisationOutilVeryLow->Location = System::Drawing::Point(370, 732);
-			this->checkBoxUtilisationOutilVeryLow->Name = L"checkBoxUtilisationOutilVeryLow";
-			this->checkBoxUtilisationOutilVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxUtilisationOutilVeryLow->TabIndex = 54;
-			this->checkBoxUtilisationOutilVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxContrainteMemoireVeryHigh->AutoSize = true;
+			this->checkBoxContrainteMemoireVeryHigh->Location = System::Drawing::Point(621, 307);
+			this->checkBoxContrainteMemoireVeryHigh->Name = L"checkBoxContrainteMemoireVeryHigh";
+			this->checkBoxContrainteMemoireVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxContrainteMemoireVeryHigh->TabIndex = 90;
+			this->checkBoxContrainteMemoireVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxCalendrierVeryLow
+			// checkBoxVolatEnvirronementVeryHigh
 			// 
-			this->checkBoxCalendrierVeryLow->AutoSize = true;
-			this->checkBoxCalendrierVeryLow->Location = System::Drawing::Point(370, 763);
-			this->checkBoxCalendrierVeryLow->Name = L"checkBoxCalendrierVeryLow";
-			this->checkBoxCalendrierVeryLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCalendrierVeryLow->TabIndex = 55;
-			this->checkBoxCalendrierVeryLow->UseVisualStyleBackColor = true;
+			this->checkBoxVolatEnvirronementVeryHigh->AutoSize = true;
+			this->checkBoxVolatEnvirronementVeryHigh->Location = System::Drawing::Point(621, 342);
+			this->checkBoxVolatEnvirronementVeryHigh->Name = L"checkBoxVolatEnvirronementVeryHigh";
+			this->checkBoxVolatEnvirronementVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxVolatEnvirronementVeryHigh->TabIndex = 91;
+			this->checkBoxVolatEnvirronementVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxFiabiliteLogicielleLow
+			// checkBoxDelaiExeRequVeryHigh
 			// 
-			this->checkBoxFiabiliteLogicielleLow->AutoSize = true;
-			this->checkBoxFiabiliteLogicielleLow->Location = System::Drawing::Point(446, 107);
-			this->checkBoxFiabiliteLogicielleLow->Name = L"checkBoxFiabiliteLogicielleLow";
-			this->checkBoxFiabiliteLogicielleLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxFiabiliteLogicielleLow->TabIndex = 56;
-			this->checkBoxFiabiliteLogicielleLow->UseVisualStyleBackColor = true;
+			this->checkBoxDelaiExeRequVeryHigh->AutoSize = true;
+			this->checkBoxDelaiExeRequVeryHigh->Location = System::Drawing::Point(621, 373);
+			this->checkBoxDelaiExeRequVeryHigh->Name = L"checkBoxDelaiExeRequVeryHigh";
+			this->checkBoxDelaiExeRequVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxDelaiExeRequVeryHigh->TabIndex = 92;
+			this->checkBoxDelaiExeRequVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxTailleBDDLow
+			// checkBoxCapaciteAnalyseVeryHigh
 			// 
-			this->checkBoxTailleBDDLow->AutoSize = true;
-			this->checkBoxTailleBDDLow->Location = System::Drawing::Point(446, 147);
-			this->checkBoxTailleBDDLow->Name = L"checkBoxTailleBDDLow";
-			this->checkBoxTailleBDDLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxTailleBDDLow->TabIndex = 57;
-			this->checkBoxTailleBDDLow->UseVisualStyleBackColor = true;
+			this->checkBoxCapaciteAnalyseVeryHigh->AutoSize = true;
+			this->checkBoxCapaciteAnalyseVeryHigh->Location = System::Drawing::Point(621, 460);
+			this->checkBoxCapaciteAnalyseVeryHigh->Name = L"checkBoxCapaciteAnalyseVeryHigh";
+			this->checkBoxCapaciteAnalyseVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteAnalyseVeryHigh->TabIndex = 93;
+			this->checkBoxCapaciteAnalyseVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxComplexiteProduitLow
+			// checkBoxExpAppVeryHigh
 			// 
-			this->checkBoxComplexiteProduitLow->AutoSize = true;
-			this->checkBoxComplexiteProduitLow->Location = System::Drawing::Point(446, 185);
-			this->checkBoxComplexiteProduitLow->Name = L"checkBoxComplexiteProduitLow";
-			this->checkBoxComplexiteProduitLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxComplexiteProduitLow->TabIndex = 58;
-			this->checkBoxComplexiteProduitLow->UseVisualStyleBackColor = true;
+			this->checkBoxExpAppVeryHigh->AutoSize = true;
+			this->checkBoxExpAppVeryHigh->Location = System::Drawing::Point(621, 492);
+			this->checkBoxExpAppVeryHigh->Name = L"checkBoxExpAppVeryHigh";
+			this->checkBoxExpAppVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpAppVeryHigh->TabIndex = 94;
+			this->checkBoxExpAppVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxContraintePerfExeLow
+			// checkBoxCapaciteIngeLogicielVeryHigh
 			// 
-			this->checkBoxContraintePerfExeLow->AutoSize = true;
-			this->checkBoxContraintePerfExeLow->Location = System::Drawing::Point(446, 276);
-			this->checkBoxContraintePerfExeLow->Name = L"checkBoxContraintePerfExeLow";
-			this->checkBoxContraintePerfExeLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxContraintePerfExeLow->TabIndex = 59;
-			this->checkBoxContraintePerfExeLow->UseVisualStyleBackColor = true;
+			this->checkBoxCapaciteIngeLogicielVeryHigh->AutoSize = true;
+			this->checkBoxCapaciteIngeLogicielVeryHigh->Location = System::Drawing::Point(621, 525);
+			this->checkBoxCapaciteIngeLogicielVeryHigh->Name = L"checkBoxCapaciteIngeLogicielVeryHigh";
+			this->checkBoxCapaciteIngeLogicielVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCapaciteIngeLogicielVeryHigh->TabIndex = 95;
+			this->checkBoxCapaciteIngeLogicielVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxContrainteMempirLow
+			// checkBoxExpEnvironnementVeryHigh
 			// 
-			this->checkBoxContrainteMempirLow->AutoSize = true;
-			this->checkBoxContrainteMempirLow->Location = System::Drawing::Point(446, 307);
-			this->checkBoxContrainteMempirLow->Name = L"checkBoxContrainteMempirLow";
-			this->checkBoxContrainteMempirLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxContrainteMempirLow->TabIndex = 60;
-			this->checkBoxContrainteMempirLow->UseVisualStyleBackColor = true;
+			this->checkBoxExpEnvironnementVeryHigh->AutoSize = true;
+			this->checkBoxExpEnvironnementVeryHigh->Location = System::Drawing::Point(621, 561);
+			this->checkBoxExpEnvironnementVeryHigh->Name = L"checkBoxExpEnvironnementVeryHigh";
+			this->checkBoxExpEnvironnementVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpEnvironnementVeryHigh->TabIndex = 96;
+			this->checkBoxExpEnvironnementVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxVolatEnvLow
+			// checkBoxExpLangProgVeryHigh
 			// 
-			this->checkBoxVolatEnvLow->AutoSize = true;
-			this->checkBoxVolatEnvLow->Location = System::Drawing::Point(446, 342);
-			this->checkBoxVolatEnvLow->Name = L"checkBoxVolatEnvLow";
-			this->checkBoxVolatEnvLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxVolatEnvLow->TabIndex = 61;
-			this->checkBoxVolatEnvLow->UseVisualStyleBackColor = true;
+			this->checkBoxExpLangProgVeryHigh->AutoSize = true;
+			this->checkBoxExpLangProgVeryHigh->Location = System::Drawing::Point(621, 600);
+			this->checkBoxExpLangProgVeryHigh->Name = L"checkBoxExpLangProgVeryHigh";
+			this->checkBoxExpLangProgVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxExpLangProgVeryHigh->TabIndex = 97;
+			this->checkBoxExpLangProgVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxDelaiExeLow
+			// checkBoxApplicationMethodeGeniVeryHigh
 			// 
-			this->checkBoxDelaiExeLow->AutoSize = true;
-			this->checkBoxDelaiExeLow->Location = System::Drawing::Point(446, 375);
-			this->checkBoxDelaiExeLow->Name = L"checkBoxDelaiExeLow";
-			this->checkBoxDelaiExeLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxDelaiExeLow->TabIndex = 62;
-			this->checkBoxDelaiExeLow->UseVisualStyleBackColor = true;
+			this->checkBoxApplicationMethodeGeniVeryHigh->AutoSize = true;
+			this->checkBoxApplicationMethodeGeniVeryHigh->Location = System::Drawing::Point(621, 702);
+			this->checkBoxApplicationMethodeGeniVeryHigh->Name = L"checkBoxApplicationMethodeGeniVeryHigh";
+			this->checkBoxApplicationMethodeGeniVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxApplicationMethodeGeniVeryHigh->TabIndex = 98;
+			this->checkBoxApplicationMethodeGeniVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxCapaciteAnalyseLow
+			// checkBoxUtilisationOutilLogiVeryHigh
 			// 
-			this->checkBoxCapaciteAnalyseLow->AutoSize = true;
-			this->checkBoxCapaciteAnalyseLow->Location = System::Drawing::Point(446, 460);
-			this->checkBoxCapaciteAnalyseLow->Name = L"checkBoxCapaciteAnalyseLow";
-			this->checkBoxCapaciteAnalyseLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCapaciteAnalyseLow->TabIndex = 63;
-			this->checkBoxCapaciteAnalyseLow->UseVisualStyleBackColor = true;
+			this->checkBoxUtilisationOutilLogiVeryHigh->AutoSize = true;
+			this->checkBoxUtilisationOutilLogiVeryHigh->Location = System::Drawing::Point(621, 734);
+			this->checkBoxUtilisationOutilLogiVeryHigh->Name = L"checkBoxUtilisationOutilLogiVeryHigh";
+			this->checkBoxUtilisationOutilLogiVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxUtilisationOutilLogiVeryHigh->TabIndex = 99;
+			this->checkBoxUtilisationOutilLogiVeryHigh->UseVisualStyleBackColor = true;
 			// 
-			// checkBoxExpAppLow
+			// checkBoxCalendrierVeryHigh
 			// 
-			this->checkBoxExpAppLow->AutoSize = true;
-			this->checkBoxExpAppLow->Location = System::Drawing::Point(446, 492);
-			this->checkBoxExpAppLow->Name = L"checkBoxExpAppLow";
-			this->checkBoxExpAppLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpAppLow->TabIndex = 64;
-			this->checkBoxExpAppLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxCapaciteIngeLow
-			// 
-			this->checkBoxCapaciteIngeLow->AutoSize = true;
-			this->checkBoxCapaciteIngeLow->Location = System::Drawing::Point(446, 525);
-			this->checkBoxCapaciteIngeLow->Name = L"checkBoxCapaciteIngeLow";
-			this->checkBoxCapaciteIngeLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCapaciteIngeLow->TabIndex = 65;
-			this->checkBoxCapaciteIngeLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxExpEnviironnementLow
-			// 
-			this->checkBoxExpEnviironnementLow->AutoSize = true;
-			this->checkBoxExpEnviironnementLow->Location = System::Drawing::Point(446, 561);
-			this->checkBoxExpEnviironnementLow->Name = L"checkBoxExpEnviironnementLow";
-			this->checkBoxExpEnviironnementLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpEnviironnementLow->TabIndex = 66;
-			this->checkBoxExpEnviironnementLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxExpLanguageProgLow
-			// 
-			this->checkBoxExpLanguageProgLow->AutoSize = true;
-			this->checkBoxExpLanguageProgLow->Location = System::Drawing::Point(446, 600);
-			this->checkBoxExpLanguageProgLow->Name = L"checkBoxExpLanguageProgLow";
-			this->checkBoxExpLanguageProgLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxExpLanguageProgLow->TabIndex = 67;
-			this->checkBoxExpLanguageProgLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxApplicationGeniLow
-			// 
-			this->checkBoxApplicationGeniLow->AutoSize = true;
-			this->checkBoxApplicationGeniLow->Location = System::Drawing::Point(446, 702);
-			this->checkBoxApplicationGeniLow->Name = L"checkBoxApplicationGeniLow";
-			this->checkBoxApplicationGeniLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxApplicationGeniLow->TabIndex = 68;
-			this->checkBoxApplicationGeniLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxUtilisationOutilLogicielLow
-			// 
-			this->checkBoxUtilisationOutilLogicielLow->AutoSize = true;
-			this->checkBoxUtilisationOutilLogicielLow->Location = System::Drawing::Point(446, 734);
-			this->checkBoxUtilisationOutilLogicielLow->Name = L"checkBoxUtilisationOutilLogicielLow";
-			this->checkBoxUtilisationOutilLogicielLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxUtilisationOutilLogicielLow->TabIndex = 69;
-			this->checkBoxUtilisationOutilLogicielLow->UseVisualStyleBackColor = true;
-			// 
-			// checkBoxCalendrierLow
-			// 
-			this->checkBoxCalendrierLow->AutoSize = true;
-			this->checkBoxCalendrierLow->Location = System::Drawing::Point(446, 765);
-			this->checkBoxCalendrierLow->Name = L"checkBoxCalendrierLow";
-			this->checkBoxCalendrierLow->Size = System::Drawing::Size(22, 21);
-			this->checkBoxCalendrierLow->TabIndex = 70;
-			this->checkBoxCalendrierLow->UseVisualStyleBackColor = true;
+			this->checkBoxCalendrierVeryHigh->AutoSize = true;
+			this->checkBoxCalendrierVeryHigh->Location = System::Drawing::Point(621, 765);
+			this->checkBoxCalendrierVeryHigh->Name = L"checkBoxCalendrierVeryHigh";
+			this->checkBoxCalendrierVeryHigh->Size = System::Drawing::Size(22, 21);
+			this->checkBoxCalendrierVeryHigh->TabIndex = 100;
+			this->checkBoxCalendrierVeryHigh->UseVisualStyleBackColor = true;
 			// 
 			// Form1
 			// 
@@ -1271,6 +1631,7 @@ private: System::Void btnResetClick(System::Object^ sender, System::EventArgs^ e
 
 }
 //fin btnReset
+
 
 
 
