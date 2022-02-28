@@ -1592,34 +1592,56 @@ private: System::Void BtnCalculateClick(System::Object^ sender, System::EventArg
 		//tester chaque possiblilté
 		//if (checkBoxExpApplicationVeryLow->Checked == true) {EAF =EAF*}
 		//if (checkBoxExpAppLow->Checked == true) {EAF =EAF*}
-		if ()
-		{
-
-		}
+		//if (checkBoxExperienceAppHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxExpAppVeryHigh->Checked == true) {AEF = EAF*}
 	}
 	if (checkBoxCapaciteIngeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*}
+		//if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxExpEnviNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxExpEnvironnementVerylow->Checked == true) {EAF =EAF*}
+		//if (checkBoxExpEnviironnementLow->Checked == true) {EAF =EAF*}
+		//if (checkBoxExpEnvironnementHigh->Checked == true) {EAF =EAF*}
+		//if (checkBoxExpEnvironnementVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxExpLangProgNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxExpLangProgVeryLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxExpLanguageProgLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxExpLangProgHigh->Checked == true) {EAF =EAF*}
+		//if (checkBoxExpLangProgVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxApplicationGenieNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxApplicationGenieVeryLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxApplicationGeniLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxApplicationMethodGeniHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxApplicationMethodeGeniVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxUtilisationOutilLogicielleNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxUtilisationOutilVeryLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxUtilisationOutilLogicielLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxUtilisationOutilLogicielHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxUtilisationOutilLogiVeryHigh->Checked == true) {EAF = EAF*}
 	}
 	if (checkBoxCalendirerNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxCalendrierVeryLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxCalendrierLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxCalendrierHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxCalendrierVeryHigh->Checked == true) {EAF = EAF*}
 	}
 
 	COCOMO.setEAF(EAF);
