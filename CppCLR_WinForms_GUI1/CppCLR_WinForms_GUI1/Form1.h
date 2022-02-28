@@ -1527,26 +1527,46 @@ private: System::Void BtnCalculateClick(System::Object^ sender, System::EventArg
 		//tester chaque possiblilté
 		if (checkBoxFiabiliteLogiVeryLow->Checked == true) { EAF = EAF * 0.75; } //VeryLow
 		if (checkBoxFiabiliteLogicielleLow->Checked == true) { EAF = EAF * 0.88; } //Low
+		//if (checkBoxFiabilitLogiNormal->Checked == true) {EAF = EAF*} //normal //pas besoin de celui la 
+		//if (checkBoxFiabilitelogicielleHigh->Checked == true) {EAF = EAF *} //high 
+		//if (checkBoxFiabiliteLogiRequVeryHigh->Checked == true) {EAF = EAF *} //vHigh
 	}
 	if (checkBoxTailleBDDNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxTailleBDDLow->Checked == true) {EAF = EAF *} //low
+		//if (checkBoxTailleBDDVeryLow->Checked == true) {EAF = EAF *} //vlow
+		//if (checkBoxTailleBDDHigh->Checked == true) {EAF = EAF*} //high
+		//if (checkBoxTailleBDDVeryHigh->Checked == true) {EAF = EAF *} // vHigh
 	}
 	if (checkBoxComplexProduitNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxComplexiteProduitLow->Checked == true) { EAF = EAF *} //low
+		//if (checkBoxComplexiteProduitVeryLow->Checked == true) {EAF = EAF *} //vLow
+		//if (checkBoxComplexiteProduitHigh->Checked == true) {EAF = EAF*} //high
+		//if (checkBoxComplexiteProduitVeryHigh->Checked == true) {EAF = EAF*} //vHigh
 	}
 	if (checkBoxContraintePerfExeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxContraintePerfExeVeryLow->Checked == true) {EAF = EAF*} //vLow
+		//if (checkBoxContraintePerfExeLow->Checked == true) {EAF = EAF*} //low
+		//if (checkBoxContraintePerfExeHigh->Checked == true) {EAF = EAF*} //high
+		//if (checkBoxContraintePerfExeVeryHigh->Checked == true) {EAF = EAF*} //vHigh
 	}
 	if (checkBoxContrainteMemoireNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxContrainteMemoireVeryLow->Checked == true) {EAF = EAF*} //vLow
+		//if (checkBoxContrainteMempirLow->Checked == true) {EAF = EAF*} //low
+		//if (checkBoxContrainteMemoirHigh->Checked == true) {EAF = EAF*} //high
+		//if (checkBoxContrainteMemoireVeryHigh->Checked == true) {EAF = EAF*} //vHigh
 	}
 	if (checkBoxVolatEnvNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+
 	}
 	if (checkBoxDelaiExeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
