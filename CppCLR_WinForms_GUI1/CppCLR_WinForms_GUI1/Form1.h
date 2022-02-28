@@ -1528,120 +1528,120 @@ private: System::Void BtnCalculateClick(System::Object^ sender, System::EventArg
 		if (checkBoxFiabiliteLogiVeryLow->Checked == true) { EAF = EAF * 0.75; } //VeryLow
 		if (checkBoxFiabiliteLogicielleLow->Checked == true) { EAF = EAF * 0.88; } //Low
 		//if (checkBoxFiabilitLogiNormal->Checked == true) {EAF = EAF*} //normal //pas besoin de celui la 
-		//if (checkBoxFiabilitelogicielleHigh->Checked == true) {EAF = EAF *} //high 
-		//if (checkBoxFiabiliteLogiRequVeryHigh->Checked == true) {EAF = EAF *} //vHigh
+		if (checkBoxFiabilitelogicielleHigh->Checked == true) { EAF = EAF * 1.15; } //high 
+		if (checkBoxFiabiliteLogiRequVeryHigh->Checked == true) { EAF = EAF * 1.40; } //vHigh
 	}
 	if (checkBoxTailleBDDNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxTailleBDDLow->Checked == true) {EAF = EAF *} //low
+		if (checkBoxTailleBDDLow->Checked == true) { EAF = EAF * 0.94; } //low
 		//if (checkBoxTailleBDDVeryLow->Checked == true) {EAF = EAF *} //vlow
-		//if (checkBoxTailleBDDHigh->Checked == true) {EAF = EAF*} //high
-		//if (checkBoxTailleBDDVeryHigh->Checked == true) {EAF = EAF *} // vHigh
+		if (checkBoxTailleBDDHigh->Checked == true) { EAF = EAF * 1.08; } //high
+		if (checkBoxTailleBDDVeryHigh->Checked == true) { EAF = EAF * 1.16; } // vHigh
 	}
 	if (checkBoxComplexProduitNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
-		//if (checkBoxComplexiteProduitLow->Checked == true) { EAF = EAF *} //low
-		//if (checkBoxComplexiteProduitVeryLow->Checked == true) {EAF = EAF *} //vLow
-		//if (checkBoxComplexiteProduitHigh->Checked == true) {EAF = EAF*} //high
-		//if (checkBoxComplexiteProduitVeryHigh->Checked == true) {EAF = EAF*} //vHigh
+		if (checkBoxComplexiteProduitLow->Checked == true) { EAF = EAF * 0.85; } //low
+		if (checkBoxComplexiteProduitVeryLow->Checked == true) { EAF = EAF * 0.70; } //vLow
+		if (checkBoxComplexiteProduitHigh->Checked == true) { EAF = EAF * 1.15; } //high
+		if (checkBoxComplexiteProduitVeryHigh->Checked == true) { EAF = EAF * 1.30; } //vHigh
 	}
 	if (checkBoxContraintePerfExeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
 		//if (checkBoxContraintePerfExeVeryLow->Checked == true) {EAF = EAF*} //vLow
 		//if (checkBoxContraintePerfExeLow->Checked == true) {EAF = EAF*} //low
-		//if (checkBoxContraintePerfExeHigh->Checked == true) {EAF = EAF*} //high
-		//if (checkBoxContraintePerfExeVeryHigh->Checked == true) {EAF = EAF*} //vHigh
+		if (checkBoxContraintePerfExeHigh->Checked == true) { EAF = EAF * 1.11; } //high
+		if (checkBoxContraintePerfExeVeryHigh->Checked == true) { EAF = EAF * 1.30; } //vHigh
 	}
 	if (checkBoxContrainteMemoireNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
 		//if (checkBoxContrainteMemoireVeryLow->Checked == true) {EAF = EAF*} //vLow
 		//if (checkBoxContrainteMempirLow->Checked == true) {EAF = EAF*} //low
-		//if (checkBoxContrainteMemoirHigh->Checked == true) {EAF = EAF*} //high
-		//if (checkBoxContrainteMemoireVeryHigh->Checked == true) {EAF = EAF*} //vHigh
+		if (checkBoxContrainteMemoirHigh->Checked == true) { EAF = EAF * 1.06; } //high
+		if (checkBoxContrainteMemoireVeryHigh->Checked == true) { EAF = EAF * 1.21; } //vHigh
 	}
 	if (checkBoxVolatEnvNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
 		//if (checkBoxVolatEnvVeryLow->Checked == true) {EAF = EAF*} //veryLow
-		//if (checkBoxVolatEnvLow->Checked == true) {EAF = EAF*} //low
-		//if (checkBoxVolatEnvironnementHigh->Checked == true) {EAF = EAF*} //high
-		//if (checkBoxVolatEnvirronementVeryHigh->Checked == true) {EAF = EAF*} //vHigh
+		if (checkBoxVolatEnvLow->Checked == true) { EAF = EAF * 0.87; } //low
+		if (checkBoxVolatEnvironnementHigh->Checked == true) {EAF = EAF*1.15;} //high
+		if (checkBoxVolatEnvirronementVeryHigh->Checked == true) {EAF = EAF*1.30;} //vHigh
 	}
 	if (checkBoxDelaiExeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
 		//if (checkBoxDelaiExeVeryLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxDelaiExeLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxDelaiExeHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxDelaiExeRequVeryHigh->Checked == true) {EAF = EAF*}
+		if (checkBoxDelaiExeLow->Checked == true) {EAF = EAF*0.87;}
+		if (checkBoxDelaiExeHigh->Checked == true) {EAF = EAF*1.07;}
+		if (checkBoxDelaiExeRequVeryHigh->Checked == true) {EAF = EAF*1.15;}
 	}
 	if (checkBoxCapaciteAnalyseNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*}
-		//if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF =EAF*}
-		//if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*}
+		if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*1.46;}
+		if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*1.19;}
+		if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF =EAF*0.86;}
+		if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*0.71;}
 	}
 	if (checkBoxExpAppNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
-		//if (checkBoxExpApplicationVeryLow->Checked == true) {EAF =EAF*}
-		//if (checkBoxExpAppLow->Checked == true) {EAF =EAF*}
-		//if (checkBoxExperienceAppHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxExpAppVeryHigh->Checked == true) {AEF = EAF*}
+		if (checkBoxExpApplicationVeryLow->Checked == true) { EAF = EAF * 1.29; }
+		if (checkBoxExpAppLow->Checked == true) { EAF = EAF * 1.13; }
+		if (checkBoxExperienceAppHigh->Checked == true) { EAF = EAF * 0.91; }
+		if (checkBoxExpAppVeryHigh->Checked == true) { EAF = EAF * 0.82; }
 	}
 	if (checkBoxCapaciteIngeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
-		//if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*}
-		//if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*}
+		if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*1.42;}
+		if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*1.17;}
+		if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF = EAF*0.86;}
+		if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*0.70;}
 	}
 	if (checkBoxExpEnviNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
-		//if (checkBoxExpEnvironnementVerylow->Checked == true) {EAF =EAF*}
-		//if (checkBoxExpEnviironnementLow->Checked == true) {EAF =EAF*}
-		//if (checkBoxExpEnvironnementHigh->Checked == true) {EAF =EAF*}
+		if (checkBoxExpEnvironnementVerylow->Checked == true) {EAF =EAF*1.21;}
+		if (checkBoxExpEnviironnementLow->Checked == true) {EAF =EAF*1.10;}
+		if (checkBoxExpEnvironnementHigh->Checked == true) {EAF =EAF*0.90;}
 		//if (checkBoxExpEnvironnementVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxExpLangProgNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxExpLangProgVeryLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxExpLanguageProgLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxExpLangProgHigh->Checked == true) {EAF =EAF*}
+		if (checkBoxExpLangProgVeryLow->Checked == true) { EAF = EAF * 1.14; }
+		if (checkBoxExpLanguageProgLow->Checked == true) { EAF = EAF * 1.07; }
+		if (checkBoxExpLangProgHigh->Checked == true) { EAF = EAF * 0.95; }
 		//if (checkBoxExpLangProgVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxApplicationGenieNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxApplicationGenieVeryLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxApplicationGeniLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxApplicationMethodGeniHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxApplicationMethodeGeniVeryHigh->Checked == true) {EAF =EAF*}
+		if (checkBoxApplicationGenieVeryLow->Checked == true) { EAF = EAF * 1.24; }
+		if (checkBoxApplicationGeniLow->Checked == true) { EAF = EAF * 1.10; }
+		if (checkBoxApplicationMethodGeniHigh->Checked == true) { EAF = EAF * 0.91; }
+		if (checkBoxApplicationMethodeGeniVeryHigh->Checked == true) { EAF = EAF * 0.82; }
 	}
 	if (checkBoxUtilisationOutilLogicielleNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxUtilisationOutilVeryLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxUtilisationOutilLogicielLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxUtilisationOutilLogicielHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxUtilisationOutilLogiVeryHigh->Checked == true) {EAF = EAF*}
+		if (checkBoxUtilisationOutilVeryLow->Checked == true) { EAF = EAF * 1.24; }
+		if (checkBoxUtilisationOutilLogicielLow->Checked == true) { EAF = EAF * 1.10; }
+		if (checkBoxUtilisationOutilLogicielHigh->Checked == true) { EAF = EAF * 0.91; }
+		if (checkBoxUtilisationOutilLogiVeryHigh->Checked == true) { EAF = EAF * 0.83; }
 	}
 	if (checkBoxCalendirerNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
-		//if (checkBoxCalendrierVeryLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxCalendrierLow->Checked == true) {EAF = EAF*}
-		//if (checkBoxCalendrierHigh->Checked == true) {EAF = EAF*}
-		//if (checkBoxCalendrierVeryHigh->Checked == true) {EAF = EAF*}
+		if (checkBoxCalendrierVeryLow->Checked == true) { EAF = EAF * 1.23; }
+		if (checkBoxCalendrierLow->Checked == true) { EAF = EAF * 1.08; }
+		if (checkBoxCalendrierHigh->Checked == true) { EAF = EAF * 1.04; }
+		if (checkBoxCalendrierVeryHigh->Checked == true) { EAF = EAF * 1.10; }
 	}
 
 	COCOMO.setEAF(EAF);
