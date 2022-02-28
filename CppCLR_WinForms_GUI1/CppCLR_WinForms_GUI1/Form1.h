@@ -1566,19 +1566,36 @@ private: System::Void BtnCalculateClick(System::Object^ sender, System::EventArg
 	if (checkBoxVolatEnvNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté
-
+		//if (checkBoxVolatEnvVeryLow->Checked == true) {EAF = EAF*} //veryLow
+		//if (checkBoxVolatEnvLow->Checked == true) {EAF = EAF*} //low
+		//if (checkBoxVolatEnvironnementHigh->Checked == true) {EAF = EAF*} //high
+		//if (checkBoxVolatEnvirronementVeryHigh->Checked == true) {EAF = EAF*} //vHigh
 	}
 	if (checkBoxDelaiExeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxDelaiExeVeryLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxDelaiExeLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxDelaiExeHigh->Checked == true) {EAF = EAF*}
+		//if (checkBoxDelaiExeRequVeryHigh->Checked == true) {EAF = EAF*}
 	}
 	if (checkBoxCapaciteAnalyseNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
 		//tester chaque possiblilté 
+		//if (checkBoxCapaciteAnalyseVeryLow->Checked == true) {EAF =EAF*}
+		//if (checkBoxCapaciteAnalyseLow->Checked == true) {EAF = EAF*}
+		//if (checkBoxCapaciteAnalyseHigh->Checked == true) {EAF =EAF*}
+		//if (checkBoxCapaciteAnalyseVeryHigh->Checked == true) {EAF =EAF*}
 	}
 	if (checkBoxExpAppNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
-		//tester chaque possiblilté 
+		//tester chaque possiblilté
+		//if (checkBoxExpApplicationVeryLow->Checked == true) {EAF =EAF*}
+		//if (checkBoxExpAppLow->Checked == true) {EAF =EAF*}
+		if ()
+		{
+
+		}
 	}
 	if (checkBoxCapaciteIngeNormal->Checked == false) //si la valeur n'est pas a normal 
 	{
