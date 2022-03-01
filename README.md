@@ -47,3 +47,5 @@ multipliers results in an effort adjustment factor (EAF).
 Typical values for EAF range from 0.9 to 1.4.
 
 ## Image
+
+![alt text](https://github.com/JMLF/COCOMO-Intermediate-GUI-/blob/main/Capture/Capture%20d%E2%80%99%C3%A9cran%202022-03-01%20091135.png)
