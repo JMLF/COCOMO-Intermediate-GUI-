@@ -1,1 +1,127 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(439,5): error MSB8020: Les outils de génération pour v143 (ensemble d'outils de plateforme = 'v143') sont introuvables. Pour générer à l'aide des outils de génération v143, installez les outils de génération v143. Vous avez également la possibilité de mettre à niveau les outils Visual Studio actuels en sélectionnant le menu Projet ou en cliquant avec le bouton droit sur la solution, puis en sélectionnant "Recibler la solution".
+﻿  CppCLR_WinFormsProject.cpp
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(13,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(14,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(18,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(19,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(23,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(24,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1509,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1520,27): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1528,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1529,68): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1531,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1532,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1537,58): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1539,59): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1540,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1545,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1546,70): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1547,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1548,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1555,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1556,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1563,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1564,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1570,57): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1571,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1572,70): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1578,55): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1579,56): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1580,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1585,65): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1586,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1587,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1588,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1593,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1594,55): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1595,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1596,60): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1601,65): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1602,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1603,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1604,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1609,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1610,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1611,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1617,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1618,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1619,61): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1625,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1626,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1627,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1628,76): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1633,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1634,73): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1635,74): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1636,74): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1641,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1642,59): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1643,60): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1644,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Form1.cpp
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(12,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(13,24): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(14,23): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(18,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(19,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(22,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(23,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\C_COCOMO\C_CALCUL.h(24,25): warning C4305: 'initialisation' : troncation de 'double' à 'const float'
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1509,26): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1520,27): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1528,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1529,68): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1531,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1532,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1537,58): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1539,59): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1540,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1545,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1546,70): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1547,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1548,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1555,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1556,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1563,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1564,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1570,57): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1571,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1572,70): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1578,55): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1579,56): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1580,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1585,65): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1586,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1587,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1588,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1593,67): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1594,55): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1595,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1596,60): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1601,65): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1602,62): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1603,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1604,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1609,66): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1610,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1611,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1617,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1618,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1619,61): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1625,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1626,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1627,71): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1628,76): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1633,69): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1634,73): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1635,74): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1636,74): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1641,63): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1642,59): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1643,60): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\CppCLR_WinForms_GUI1\Form1.h(1644,64): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+  Génération de code en cours...
+  C_CALCUL.obj : module MSIL détecté ; liens incrémentiels désactivés pour MSIL ; édition de liens complète en cours
+  CppCLR_WinForms_GUI1.vcxproj -> D:\Code\Repo Git\COCOMO-Intermediate-GUI-\CppCLR_WinForms_GUI1\x64\Debug\CppCLR_WinForms_GUI1.exe
